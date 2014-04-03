@@ -598,13 +598,13 @@ int Master::Run()
     sLog->outInfo(LOG_FILTER_WORLDSERVER, "%s (worldserver-daemon)", _FULLVERSION);
     sLog->outInfo(LOG_FILTER_WORLDSERVER, "<Ctrl-C> to stop.\n");
 
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #     #                 #####                        ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " ##   ## #  ####  ##### #     #  ####  #####  ######  ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " # # # # # #        #   #       #    # #    # #       ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #  #  # #  ####    #   #       #    # #    # #####   ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #     # #      #   #   #       #    # #####  #       ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #     # # #    #   #   #     # #    # #   #  #       ");
-    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #     # #  ####    #    #####   ####  #    # ######  ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################   ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################  ");
+    sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################   ");
+    sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################   ");
+    sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################   ");
+    sLog->outInfo(LOG_FILTER_WORLDSERVER, " ####################SURGECORE#####################   ");
+    sLog->outInfo(LOG_FILTER_WORLDSERVER, " #############SURGECORE - Open-Sourced WoW Game Emulation#########  ");
     sLog->outInfo(LOG_FILTER_WORLDSERVER, "     SurgeCore 2014 (c) Open-Sourced Game Emulation    ");
     sLog->outInfo(LOG_FILTER_WORLDSERVER, "             <http://www.SurgeCore.com/>               ");
 
