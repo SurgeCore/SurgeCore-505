@@ -2227,29 +2227,32 @@ public:
 
     bool OnQuestComplete(Player* player, Creature* /*creature*/, Quest const* quest)
     {
-        if (quest->GetQuestId() == 14222)
-        {
-            player->SendMovieStart(21);
-            player->CastSpell(player, 93477, true);
-            player->RemoveAurasDueToSpell(72870);
-            player->CastSpell(player, 76642, true);
-            player->CastSpell(player, 68630, true);
-            player->CastSpell(player, 72788, true);
-            player->CastSpell(player, 68996, true);
+		if (quest->GetQuestId() == 14222)
+		{
+			player->SendMovieStart(21);
+			player->CastSpell(player, 93477, true);
+			player->learnSpell(68996, false);
+			player->learnSpell(94098, false);
+			player->CastSpell(player, 68996, true);
+			player->RemoveAurasDueToSpell(72870);
 
-            player->CastSpell(player, 69123, true);
-            player->CastSpell(player, 68632, true);
-            player->CastSpell(player, 68634, true);
+			//player->CastSpell(player, 68630, true);
+			//player->CastSpell(player, 72788, true);
 
-            WorldLocation loc;
-            loc.m_mapId       = 654;
-            loc.m_positionX   = -1818.4f;
-            loc.m_positionY   = 2294.25f;
-            loc.m_positionZ   = 42.2135f;
-            loc.m_orientation = 3.14f;
+			//player->CastSpell(player, 69123, true);
+			//player->CastSpell(player, 68632, true);
+			//player->CastSpell(player, 68634, true);
 
-            player->SetHomebind(loc, 4786);
-        }
+			WorldLocation loc;
+			loc.m_mapId = 654;
+			loc.m_positionX = -1818.4f;
+			loc.m_positionY = 2294.25f;
+			loc.m_positionZ = 42.2135f;
+			loc.m_orientation = 3.14f;
+
+			player->SetHomebind(loc, 4786);
+
+		}
         return true;
     }
 };
@@ -2943,6 +2946,7 @@ public:
 	{
 		if (quest->GetQuestId() == 14375)
 		{
+			player->RemoveAllAuras();
 			player->CastSpell(player, 93477, true);
 			player->learnSpell(68996, false);
 			player->learnSpell(94098, false);
