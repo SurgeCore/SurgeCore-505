@@ -1,0 +1,15 @@
+DELETE FROM `creature_loot_template` WHERE item = 9036;
+DELETE FROM `creature_loot_template` WHERE item = 3384;
+DELETE FROM `creature_loot_template` WHERE item = 3393;
+DELETE FROM `creature_loot_template` WHERE item = 22548;
+DELETE FROM `creature_loot_template` WHERE item = 16216;
+DELETE FROM `creature_loot_template` WHERE item = 93194;
+DELETE FROM `creature_loot_template` WHERE item = 13522;
+DELETE FROM `creature_loot_template` WHERE item = 22548;
+DELETE FROM `creature_loot_template` WHERE item = 29673;
+DELETE FROM `creature_loot_template` WHERE item = 29674;
+DELETE FROM `creature_loot_template` WHERE item = 29672;
+DELETE FROM `creature_loot_template` WHERE item = 29675;
+DELETE FROM `creature_loot_template` WHERE item = 37330;
+DELETE FROM `creature_loot_template` WHERE item = 44562;
+DELETE FROM `creature_loot_template` WHERE item = 87633;
